@@ -1,0 +1,26 @@
+.frontpage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .content .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  

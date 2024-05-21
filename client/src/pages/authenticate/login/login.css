@@ -1,0 +1,119 @@
+.signup-container {
+  padding: 20px;
+  background-color: #FFDAB9; /* Peach color background */
+  border-radius: 30px; /* Circular border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  background-color: #bddaac;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0bbb22;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-decoration: none;
+  
+}
+
+.signup-link a{
+  text-decoration: none;
+}
+
+
+.signup-link a {
+  color: #007bff;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* signup.css */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the container covers the full height of the viewport */
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  width: 600px; /* Adjust the width of the main box */
+}
+
+.left-panel {
+  width: 50%; /* Adjust the width of the left panel */
+  padding: 20px;
+}
+
+.right-panel {
+  width: 50%;
+  padding: 20px;
+}
+
+.signup-image {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of the left panel */
+  
+}
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcome-back {
+  display: flex;
+  align-items: center;
+}
+
+.login-image {
+  width: 150px; /* Adjust the width as needed */
+  margin-left: 20px; /* Add spacing between the text and the image */
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px; /* Limit the width of the form */
+}

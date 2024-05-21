@@ -1,0 +1,60 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Decreased height to 80vh */
+  width: 80vh;
+
+}
+
+.main-box {
+  display: flex;
+  width: 90%; /* Increased width to 90% */
+}
+
+.left-panel,
+.right-panel {
+  width: 50%;
+  display: none; /* Initially hide the left and right parts */
+}
+
+.left-panel {
+  display: block; /* Show left part */
+}
+
+.right-panel {
+  display: block; /* Show right part */
+}
+
+.left-panel h1 {
+  text-align: center;
+}
+
+.right-panel {
+  padding: 0 20px;
+}
+
+.signup-link {
+  margin-top: 10px;
+}
+
+/* signup.css */
+.password-strength {
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.weak {
+  background-color: red; /* Red */
+}
+
+.medium {
+  background-color: lightcoral; /* Light Orange */
+}
+
+.strong {
+  background-color: #30cc30; /* Light Green */
+}
+
+

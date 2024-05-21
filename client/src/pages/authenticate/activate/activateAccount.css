@@ -1,0 +1,21 @@
+
+
+.activate-account-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .activate-account-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .activate-account-container p {
+    margin-bottom: 20px;
+  }
+  
+  .activate-account-container button {
+    margin-top: 20px;
+  }
+  
