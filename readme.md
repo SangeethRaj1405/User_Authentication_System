@@ -2,14 +2,14 @@
 
 ## Overview
 
-This is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This README will guide you on how to clone the repository, install the necessary dependencies, and run the project on your local machine.
+This User Authentication full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This README will guide you on how to clone the repository, install the necessary dependencies, and run the project on your local machine.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 - Node.js (>= 14.x) and npm (Node Package Manager) installed.
-- MongoDB installed and running on your local machine or a MongoDB Atlas cluster set up.
+- MongoDB installed and running on your local machine .
 - Git installed.
 
 ## Getting Started
