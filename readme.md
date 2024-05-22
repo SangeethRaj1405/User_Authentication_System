@@ -67,3 +67,32 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    npm start    
+
+## Project Functionalities
+
+### Front Page
+1. First impression is the best impression. By clicking the explore button you can able to move on to the Login Page
+
+### Login Page
+2. A Login page for the HRMS tool is visible to you. I already created a default admin id pass for you to check the login functionality. Since the project is pnly focussed on the user authentication after logged in you wll just redirected to the page named dashboard
+   ## NOTE
+   1.Dashboard is a empty component created using react
+
+  ```bash
+  Email: admin@test.com
+  Password: admin
+  ```
+
+
+### Sign Up
+3.If you need to check how the signup process works. By clicking the sign up button you will redirect to the signup page and by entering all the fields in the box after clicking the signup button a mail will generate to activate your account
+
+  ## NOTE
+  1. Mail you give shouldn't already in the DB
+  2. As well as password have some criteria. Without satisfying the creteria you should not 
+  able to signup.
+
+Once you activate your account using the link that you got mail.Your details will stored in the DB.
+
+### Forget and Reset Password
+4. If you forget your password you can able to change it using the forget password. When you enter the mail and submit the form, you will receive a email to change password by clciking the link you can able to reset your password
